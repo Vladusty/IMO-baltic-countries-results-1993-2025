@@ -17,6 +17,12 @@ This enables the tracking and comparison of long-term performance trends while a
 2) 📄 R Code — R_code/: Scripts for calculating metrics and generating visualizations.
 3) 📈 Visualisations — baltic_plots/: Pre-generated charts in PDF and SVG format showing performance dynamics over time.
 
+# Plots:
+
+<img width="1920" height="1080" alt="Untitled2" src="https://github.com/user-attachments/assets/addc3174-77a9-4dcf-b08e-6fbe6503e5d2" />
+
+<img width="1920" height="1080" alt="Untitled3" src="https://github.com/user-attachments/assets/0e4690fb-2f62-4934-8d6d-92a346e3d127" />
+
 
 ### 📐 Metrics Summary (1993–2025)
 
@@ -33,8 +39,6 @@ This enables the tracking and comparison of long-term performance trends while a
 - **Best / Worst Rank** — Highest and lowest performance (smaller is better).
 - **Relative Rank Metrics** — Normalised indicators showing position in relation to total participants.
 - **SD** — Standard deviation, indicating consistency (lower = more stable performance).
-
-
 
 # License
 MIT — see LICENSE.
