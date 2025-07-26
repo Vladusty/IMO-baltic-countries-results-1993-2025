@@ -4,14 +4,14 @@ library(writexl)
 library(ggplot2)
 library(ggtext)
 
-IMO <- read_xlsx('IMO_LVA_EST_LIT.xlsx') %>%
-  mutate(Country = factor(Country, levels = c("Latvia", "Lithuania", "Estonia")))
+IMO <- read_xlsx('IMO_LVA_EST_LIT_FIN_SWE_1993_2025.xlsx') %>%
+  mutate(Country = factor(Country, levels = c("Latvia", "Lithuania", "Estonia", "Finland", "Sweden")))
 
 ggplot(IMO, aes(x = Year, y = Inverted_Relative_Rank, color = Country)) +
   geom_line(size = 1) +
   geom_smooth(method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +
   labs(
-    title = "International Math Olympiad Relative Ranking of Baltic Countries (1993–2025)",
+    title = "International Math Olympiad Relative Ranking of Baltic Countries, Finland and Sweden (1993–2025)",
     x = "Year",
     y = "Relative Rank (1 = best)",
     color = "Country",
@@ -27,6 +27,27 @@ ggplot(IMO, aes(x = Year, y = Inverted_Relative_Rank, color = Country)) +
     panel.grid.major.y = element_line(color = "grey85", size = 0.2),
     panel.grid.minor.y = element_blank()
   )
+
+ggplot(IMO, aes(x = Year, y = Rank, color = Country)) +
+  geom_line(size = 1) +
+  labs(
+    title = "International Math Olympiad Ranking of Baltic Countries, Finland and Sweden (1993–2025)",
+    x = "Year",
+    y = "Rank (lower is better)",
+    color = "Country",
+    caption = "Source: IMO official results (https://www.imo-official.org/results.aspx).\nValues closer to 1 indicate better performance."
+  ) +
+  scale_x_continuous(breaks = 1993:2025) +
+  scale_y_reverse(
+    breaks = seq(0, 100, 10),
+    labels = ~ scales::number(.x, big.mark = " ", decimal.mark = ",")
+  ) +
+  theme_minimal() +
+  theme(
+    panel.grid.major.y = element_line(color = "grey85", size = 0.2),
+    panel.grid.minor.y = element_blank()
+  )
+
 
 summary_df <- IMO %>%
   group_by(Country) %>%
