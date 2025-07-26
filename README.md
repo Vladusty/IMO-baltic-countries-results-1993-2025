@@ -30,7 +30,7 @@ This enables the tracking and comparison of long-term performance trends while a
 
 ### 📐 Metrics Summary (1993–2025)
 
-| Country       | Mean Rank | Median Rank | Best Rank | Worst Rank | SD    | Mean Relative Rank | Median Relative Rank | Best Rel. Rank | Worst Rel. Rank | SD Rel. Rank |
+| Country       | Mean Rank | Median Rank | Best Rank | Worst Rank | SD    | Mean Inv. Relative Rank | Median Inv. Relative Rank | Best Inv. Rel. Rank | Worst Inv. Rel. Rank | SD Inv. Rel. Rank |
 |---------------|-----------|-------------|-----------|-------------|-------|---------------------|-----------------------|----------------|------------------|----------------|
 | **Latvia**     | 53.4     | 57          | 22        | 79          | 15.2  | 0.440               | 0.422                 | 0.732          | 0.240            | 0.112          |
 | **Lithuania**  | 50.3     | 51          | 31        | 76          | 10.5  | 0.458               | 0.486                 | 0.667          | 0.244            | 0.120          |
@@ -41,7 +41,7 @@ This enables the tracking and comparison of long-term performance trends while a
 **Metric explanations**:
 - **Mean / Median Rank** — Average and median position over the years.
 - **Best / Worst Rank** — Highest and lowest performance (smaller is better).
-- **Relative Rank Metrics** — Normalised indicators showing position in relation to total participants.
+- **Inverted Relative Rank Metrics** — Normalised indicators showing position in relation to total participants (bigger is better).
 - **SD** — Standard deviation, indicating consistency (lower = more stable performance).
 
 # License
