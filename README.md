@@ -15,13 +15,17 @@ This enables the tracking and comparison of long-term performance trends while a
 # Included Materials
 1) 📁 Dataset (XLSX) — IMO_dataset_LV_LT_EST_FIN_SWE_1993_2025.xlsx: Tabular results for Latvia, Estonia, Lithuania, Finland, and Sweden.
 2) 📄 R Code — R_code/: Scripts for calculating metrics and generating visualizations.
-3) 📈 Visualisations — baltic_plots/: Pre-generated charts in PDF and SVG format showing performance dynamics over time.
+3) 📈 Visualisations — plots/: Pre-generated charts in PDF and SVG format showing performance dynamics over time.
 
 # Plots:
 
 <img width="1920" height="1080" alt="Untitled2" src="https://github.com/user-attachments/assets/addc3174-77a9-4dcf-b08e-6fbe6503e5d2" />
 
 <img width="1920" height="1080" alt="Untitled3" src="https://github.com/user-attachments/assets/0e4690fb-2f62-4934-8d6d-92a346e3d127" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ca7840b-a0fc-4784-ad60-3b89e51537ea" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e6ffe91-bebb-45fc-8f1a-42d4da94cf39" />
 
 
 ### 📐 Metrics Summary (1993–2025)
