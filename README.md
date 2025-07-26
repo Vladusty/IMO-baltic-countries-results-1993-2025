@@ -41,7 +41,7 @@ This enables the tracking and comparison of long-term performance trends while a
 **Metric explanations**:
 - **Mean / Median Rank** — Average and median position over the years.
 - **Best / Worst Rank** — Highest and lowest performance (smaller is better).
-- **Relative Rank Metrics** — Normalised indicators showing position in relation to total participants.
+- **Relative Rank Metrics** — Normalised indicators showing position in relation to total participants (smaller is better).
 - **SD** — Standard deviation, indicating consistency (lower = more stable performance).
 
 # License
